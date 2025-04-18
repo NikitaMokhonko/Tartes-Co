@@ -63,31 +63,30 @@ p {
 }
 
 .showcase{
-    margin-top: 50px;
-    width: 80%;
+    margin-top: 60px;
+    width: 92%;
     display: flex;
     align-items: center;
     justify-content: center;
     position: relative;
-    border: 5px solid white;
-    border-radius: 20px;
+    border: 8px solid white;
+    border-radius: 10px;
     z-index: 1;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 20px;
 
 }
 
 .frontpageshowcase{
     width: 20%;
-    height: 500px;
-    filter: blur(3px)
-    
+    height: 200px;
 }
 
 .showcasetext{
     text-align: center;
     position: absolute;
-    top:45%;
+    top:35%;
     margin-top: 0;
     margin-bottom: 0;
     color: white;
@@ -111,6 +110,15 @@ p {
         margin-right: 50px;
         margin-left: 50px;
         width: auto;
+    }
+    .showcase{
+        width: 80%;
+    }
+    .frontpageshowcase{
         
+        height: 500px;
+    }
+    .showcasetext{
+        top:45%;
     }
 }
