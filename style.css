@@ -9,7 +9,7 @@ input {
     width: 30%;
     height: 50px;
     border-radius: 6px;
-    margin-top: 10px;
+
 
     
 }
@@ -24,21 +24,28 @@ body{
     padding: 0;
 }
 a{
-    margin: 10px;
     color: white;
 }
+.redirect{
+    margin: 10px;
+}
+
+.headerlogo{
+    border-right:1px solid white;
+
+}
+
 .logo{
     height: 80px;
     padding-right: 40px;
     padding-top: 10px;
-    border-right: 1px solid white;
+    padding-bottom: 14px;
 
 }
 header{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-bottom: 14px;
     border-bottom: 1px solid white;
     background-color: rgb(11, 15, 106);
 }
