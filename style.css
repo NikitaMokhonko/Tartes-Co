@@ -1,0 +1,17 @@
+* {
+    box-sizing: border-box;
+  }
+  
+input {
+    background-color: transparent;
+    color: blue;
+    border: none;
+    width: 33%;
+    height: 50px;
+
+    
+}
+input:hover{
+    border: 1px solid blue;
+    cursor: pointer;
+}
