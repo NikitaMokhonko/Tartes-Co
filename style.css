@@ -35,6 +35,8 @@ header{
 .frontpageimage{
     width: 200px;
     height: 200px;
+    border: 5px solid white;
+    border-radius: 50px;
 }
 
 p {
@@ -53,7 +55,19 @@ p {
     margin-bottom: 20px;
 }
 
-img {
+.showcase{
+    margin-top: 10px;
+    display: flex;
+    size-adjust: center;
+    justify-content: center;
+    margin-left: none;
+    margin-right: none;
     border: 5px solid white;
-    border-radius: 50px;
+    border-radius: 20px;
+}
+
+.frontpageshowcase{
+    width: 20%;
+    height: 500px;
+    filter: blur(3px)
 }
