@@ -8,10 +8,15 @@ input {
     border: none;
     width: 33%;
     height: 50px;
+    border-radius: 6px;
 
     
 }
 input:hover{
     border: 1px solid blue;
     cursor: pointer;
+    background-color: white;
+}
+body{
+    background-color:rgb(246, 203, 150);
 }
