@@ -4,19 +4,30 @@
   
 input {
     background-color: transparent;
-    color: blue;
+    color: black;
     border: none;
-    width: 33%;
+    width: 30%;
     height: 50px;
     border-radius: 6px;
 
     
 }
 input:hover{
-    border: 1px solid blue;
+    border: 1px solid black;
     cursor: pointer;
-    background-color: white;
+    background-color: transparent;
 }
 body{
     background-color:rgb(246, 203, 150);
+}
+a{
+    margin: 10px;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 5px;
+    border-bottom: 1px solid black;
 }
