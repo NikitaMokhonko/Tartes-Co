@@ -28,6 +28,6 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-bottom: 5px;
+    padding-bottom: 10px;
     border-bottom: 1px solid black;
 }
