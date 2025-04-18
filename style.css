@@ -27,7 +27,13 @@ a{
     margin: 10px;
     color: white;
 }
+.logo{
+    height: 80px;
+    padding-right: 40px;
+    padding-top: 10px;
+    border-right: 1px solid white;
 
+}
 header{
     display: flex;
     justify-content: center;
