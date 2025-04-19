@@ -8,10 +8,7 @@ input {
     border: none;
     width: 30%;
     height: 50px;
-    border-radius: 6px;
-
-
-    
+    border-radius: 6px; 
 }
 input:hover{
     border: 1px solid white;
@@ -23,28 +20,33 @@ body{
     margin: 0;
     padding: 0;
 }
+
 a{
     color: white;
 }
+
 .redirect{
     margin: 10px;
 }
 
 .headerlogo{
     border-right:1px solid white;
-
 }
 
 .logo{
     height: 80px;
-    padding-right: 40px;
+    padding-right: 25px;
+    padding-left: 25px;
     padding-top: 10px;
-    padding-bottom: 14px;
+    margin-right: 10px;
+    margin-left: 10px;
+    padding-bottom: 12px;
+    width: 100px;
 
 }
 header{
     display: flex;
-    justify-content: center;
+    justify-content: left;
     align-items: center;
     border-bottom: 1px solid white;
     background-color: rgb(11, 15, 106);
