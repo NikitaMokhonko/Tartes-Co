@@ -157,8 +157,7 @@ p {
 
 .assortmenttext{
     text-align: center;
-    padding-top: 70px;
-    padding-bottom: 20px;
+    padding-top: 40px;
     color: rgb(11, 15, 106);
     font-size: 420%;
     font-family: 'Dancing Script', cursive;
@@ -228,5 +227,9 @@ footer{
     }
     .frontpagedescription{
         font-size: 60%;
+    }
+    .assortmenttext{
+        padding-top: 70px;
+        padding-bottom: 20px;
     }
 }
