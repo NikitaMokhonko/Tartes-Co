@@ -103,6 +103,10 @@ p {
     margin-bottom: 20px;
 }
 
+.assortmentshowcase{
+        margin-bottom: 20px;
+}
+
 .frontpagedescription{
     width: 80%;
     display: flex;
@@ -231,5 +235,8 @@ footer{
     .assortmenttext{
         padding-top: 70px;
         padding-bottom: 20px;
+    }
+    .assortmentshowcase{
+        padding-left: 120px;
     }
 }
