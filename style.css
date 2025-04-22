@@ -12,11 +12,7 @@ input {
     height: 50px;
     border-radius: 6px; 
 }
-input:hover{
-    border: 1px solid white;
-    cursor: pointer;
-    background-color: transparent;
-}
+
 body{
     background-color:rgb(240, 240, 250);
     margin: 0;
@@ -29,6 +25,11 @@ a{
 
 .redirect{
     margin: 10px;
+}
+.redirect:hover{
+    border: 1px solid white;
+    cursor: pointer;
+    background-color: transparent;
 }
 
 .headerlogo{
@@ -61,8 +62,8 @@ header{
     height: 200px;
     border: 5px solid white;
     border-radius: 50px;
-    margin-bottom: 20px;
-    margin-top: 70px;
+    margin-bottom: 15px;
+    margin-top: 60px;
 }
 
 p {
@@ -100,8 +101,32 @@ p {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 20px;
-    
+}
 
+.frontpagedescription{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    font-size: 50%;
+}
+
+.aboutpagetext{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.aboutpagetoptext{
+    font-family: 'Dancing Script', cursive; 
+    font-size: 200%; 
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
 }
 
 .frontpageshowcase{
@@ -131,8 +156,8 @@ p {
 
 .assortmenttext{
     text-align: center;
-    padding-top: 100px;
-    padding-bottom: 50px;
+    padding-top: 70px;
+    padding-bottom: 20px;
     color: rgb(11, 15, 106);
     font-size: 420%;
     font-family: 'Dancing Script', cursive;
@@ -157,8 +182,24 @@ footer{
     text-align: center;
 }
 .contacttext{
+    display: flex;
     text-align: center;
     color: rgb(11, 15, 106);
+    max-width: 80%;
+}
+.onpageredirect{
+    margin-top: 20px;
+    background-color: rgb(11, 15, 106);
+    color: white;
+    border: 1px solid white;
+    border-radius: 6px; 
+    width: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.onpageredirect:hover{
+    cursor: pointer;
 }
 
 @media (min-width: 480px) {
@@ -180,8 +221,11 @@ footer{
         margin: 0;
     }
     .showcasetext{
-        top:74%;
+        top:70%;
         background: transparent;
         font-size: 450%;
+    }
+    .frontpagedescription{
+        font-size: 60%;
     }
 }
