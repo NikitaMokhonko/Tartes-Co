@@ -1,5 +1,7 @@
-Hey!
+# Tartes & Co Website
 
-Within this repo you will find my project - a professional website for my girlfirend's business - Tartes & Co! 
+Hey there!
 
-This project was made using just HTML and vanilla CSS, nothing else. 
+This repository contains my project - a professional website built for my girlfriend's business, **Tartes & Co**.
+
+The site was created using only **HTML** and **vanilla CSS**, with no other frameworks or libraries.
