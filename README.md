@@ -2,4 +2,4 @@ Hey!
 
 Within this repo you will find my project - a professional website for my girlfirend's business - Tartes & Co! 
 
-Feel free to browse around! And if you need any pastry - you know where to go :D
+This project was made using just HTML and vanilla CSS, nothing else. 
